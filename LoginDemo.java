@@ -38,12 +38,13 @@ class LoginDemo extends JFrame implements ActionListener {
         add(submit);
         setLayout(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
+
         // Adding the listeners to components..
         submit.addActionListener(this);
        // add(panel, BorderLayout.CENTER);
         setTitle("Please Login Here !");
         setSize(700,500);
+        setLocationRelativeTo(null);
         setVisible(true);
     }
     public static void main(String[] args) {

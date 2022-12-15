@@ -46,7 +46,7 @@ public class Introduction implements ActionListener {
     public void actionPerformed(ActionEvent e) {
          if(e.getSource()==StartQ){
              f.setVisible(false);
-             new Quiz();
+             Quiz.main(null);
              new Question();
          }
          if(e.getSource()==back){
